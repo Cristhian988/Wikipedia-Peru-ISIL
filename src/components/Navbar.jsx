@@ -9,34 +9,36 @@ export default function Navbar() {
     <header className="container mx-auto px-8 bg-white">
       <nav className="flex items-center justify-between pt-1.5 pb-4 px-6">
         <div className="flex items-center gap-4">
-          <div
-            className={`${
-              open ? "border-2" : "border-none"
-            } p-1 hover:bg-gray-100 cursor-pointer relative`}
-            onClick={() => setOpen(!open)}
-          >
-            <MenuIcon />
-          </div>
-          <div
-            className={`${
-              open ? "" : "hidden"
-            } flex flex-col bg-white rounded p-4 absolute top-14 sm:left-60 w-[250px] z-50 transition-all duration-300 shadow-lg `}
-          >
-            <h2 className="text-base font-bold pb-1">Menú principal</h2>
-            <button className="block w-40 text-left bg-gray-200 py-0.5 px-2 rounded cursor-pointer text-sm hover:bg-gray-100">
-              mover a la barra lateral
-            </button>
-            <hr className="text-gray-200 mt-2" />
-            {/* {links} */}
-            <ul className="space-y-1.5 text-primary py-2">
-              {NavLinks.map((link, index) => (
-                <li key={index}>
-                  <a href={link.href} className="text-base hover:underline">
-                    {link.link}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          <div className="relative group">
+            <div
+              className={`${
+                open ? "border-2" : "border-none"
+              } p-1 hover:bg-gray-100 cursor-pointer`}
+              onClick={() => setOpen(!open)}
+            >
+              <MenuIcon />
+            </div>
+            <div
+              className={`${
+                open ? "" : "hidden"
+              } flex flex-col bg-white rounded p-4 absolute top-9 left-0 w-[250px] z-50 transition-all duration-300 shadow-lg`}
+            >
+              <h2 className="text-base font-bold pb-1">Menú principal</h2>
+              <button className="block w-40 text-left bg-gray-200 py-0.5 px-2 rounded cursor-pointer text-sm hover:bg-gray-100">
+                mover a la barra lateral
+              </button>
+              <hr className="text-gray-200 mt-2" />
+              {/* {links} */}
+              <ul className="space-y-1.5 text-primary py-2">
+                {NavLinks.map((link, index) => (
+                  <li key={index}>
+                    <a href={link.href} className="text-base hover:underline">
+                      {link.link}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
 
           {/* logo */}
@@ -82,47 +84,49 @@ export default function Navbar() {
               Acceder
             </a>
           </li>
-          <button
-            className={`${
-              more ? "border-2" : "border-none"
-            } px-2 hover:bg-gray-100 cursor-pointer relative`}
-            onClick={() => setMore(!more)}
-          >
-            <span className="pb-4 text-2xl font-bold">...</span>
-          </button>
-          <div
-            className={`${
-              more ? "" : "hidden"
-            } flex flex-col bg-white rounded p-4 absolute top-14 right-60 w-[250px] z-50 transition-all duration-300 shadow-lg`}
-          >
-            {/* {links} */}
-            <ul className="space-y-1 py-2">
-              <li className="leading-4">
-                Páginas para editores desconectados{" "}
-                <a
-                  href="https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n"
-                  className="text-primary hover:underline"
-                >
-                  mas información
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://es.wikipedia.org/wiki/Especial:Contribuciones/38.25.17.119"
-                  className="text-primary hover:underline"
-                >
-                  Contribuciones
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://es.wikipedia.org/wiki/Usuario_discusi%C3%B3n:38.25.17.119"
-                  className="text-primary hover:underline"
-                >
-                  Discusion
-                </a>
-              </li>
-            </ul>
+          <div className="relative group">
+            <button
+              className={`${
+                more ? "border-2" : "border-none"
+              } px-2 hover:bg-gray-100 cursor-pointer`}
+              onClick={() => setMore(!more)}
+            >
+              <span className="pb-4 text-2xl font-bold">...</span>
+            </button>
+            <div
+              className={`${
+                more ? "" : "hidden"
+              } flex flex-col bg-white rounded p-4 absolute top-9 right-0 w-[250px] z-50 transition-all duration-300 shadow-lg`}
+            >
+              {/* {links} */}
+              <ul className="space-y-1 py-2">
+                <li className="leading-4">
+                  Páginas para editores desconectados{" "}
+                  <a
+                    href="https://es.wikipedia.org/wiki/Ayuda:Introducci%C3%B3n"
+                    className="text-primary hover:underline"
+                  >
+                    mas información
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://es.wikipedia.org/wiki/Especial:Contribuciones/38.25.17.119"
+                    className="text-primary hover:underline"
+                  >
+                    Contribuciones
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://es.wikipedia.org/wiki/Usuario_discusi%C3%B3n:38.25.17.119"
+                    className="text-primary hover:underline"
+                  >
+                    Discusion
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </ul>
       </nav>
