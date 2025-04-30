@@ -22,7 +22,7 @@ export default function HeadingNav() {
         <div
           className={`${
             languages ? "" : "hidden"
-          } flex flex-col bg-white pb-4 absolute top-9 right-0 w-[700px] h-[380px] z-100 transition-all duration-300 shadow-lg border border-gray-300`}
+          } flex flex-col bg-white pb-4 absolute top-9 right-0 w-96 lg:w-[700px] h-[380px] z-100 transition-all duration-300 shadow-lg border border-gray-300`}
         >
           <div className="flex items-center gap-3 border-b border-gray-300 py-2 px-4 w-full">
             <Search width={20} height={20} className="text-gray-400" />
