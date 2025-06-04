@@ -7,8 +7,8 @@ export default function LeftSide() {
     <div className="w-1/5 mt-7 hidden md:block">
       <aside className="px-8 py-6">
         <div className="flex items-center gap-3">
-          <h2 className="text-black font-semibold">Contenidos</h2>
-          <button className="bg-gray-100 px-2 py-0.5 rounded cursor-pointer text-sm hover:bg-gray-50">
+          <h2 className="text-black font-semibold text-sm">Contenidos</h2>
+          <button className="bg-gray-100 px-2 py-0.5 rounded cursor-pointer text-xs hover:bg-gray-50">
             ocultar
           </button>
         </div>
@@ -16,11 +16,11 @@ export default function LeftSide() {
         <hr className="text-gray-200 my-2" />
 
         <div className="space-y-2 text-primary">
-          <h2 className="text-black font-semibold hover:underline cursor-pointer">
+          <h2 className="text-black font-semibold text-sm hover:underline cursor-pointer">
             Inicio
           </h2>
 
-          <div className="space-y-1.5">
+          <div className="space-y-1.5 text-sm">
             <a href="#" className="py-8 hover:underline text-primary">
               Etimologia
             </a>
@@ -31,7 +31,7 @@ export default function LeftSide() {
               >
                 <summary className="hover:underline cursor-pointer flex items-center">
                   <button className="mr-1">
-                    <ChevronRight className="w-5 h-5 text-black" />
+                    <ChevronRight className="w-4 h-4 text-black" />
                   </button>
                   {item.title}
                 </summary>

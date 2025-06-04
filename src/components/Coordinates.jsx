@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Coordinates() {
   return (
-    <div className="hidden md:flex items-center justify-end text-sm gap-1 py-2.5 cursor-pointer">
+    <div className="hidden md:flex items-center justify-end text-xs gap-1.5 py-2.5 cursor-pointer">
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Art%C3%ADculo_bueno.svg/40px-Art%C3%ADculo_bueno.svg.png"
         alt="checks"
@@ -20,7 +20,7 @@ export default function Coordinates() {
         className="w-5"
       />
       <a
-        href="https://geohack.toolforge.org/geohack.php?language=es&pagename=Per%C3%BA&params=-12.06_N_-77.0375_E_type:city"
+        href="https://geohack.toolforge.org/geohack.php?language=es&pagename=Pa%C3%ADses_Bajos&params=52.316666666667_N_5.55_E_type:city"
         className="text-primary hover:underline"
       >
         52°19′00″N 5°33′00″E

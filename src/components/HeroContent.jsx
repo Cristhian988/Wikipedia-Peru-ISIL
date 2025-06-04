@@ -2,8 +2,8 @@ import React from "react";
 
 export default function HeroContent() {
   return (
-    <div>
-      <div className="space-y-6 w-full leading-relaxed">
+    <>
+      <div className="space-y-6 leading-relaxed">
         <p>
           <b>Países Bajos</b> (en neerlandés: Nederlandⓘ) es una de las cuatro
           naciones constituyentes que forman el Reino de los Países Bajos. Es
@@ -37,6 +37,6 @@ export default function HeroContent() {
           consolidadas del mundo.[12]
         </p>
       </div>
-    </div>
+    </>
   );
 }

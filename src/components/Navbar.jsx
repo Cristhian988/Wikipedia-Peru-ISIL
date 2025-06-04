@@ -1,4 +1,4 @@
-import { MenuIcon, Search } from "lucide-react";
+import { MenuIcon, MoreHorizontal, Search } from "lucide-react";
 import React, { useState } from "react";
 import { NavLinks } from "../Data";
 
@@ -7,8 +7,8 @@ export default function Navbar() {
   const [more, setMore] = useState(false);
   return (
     <header className="container mx-auto px-8 bg-white">
-      <nav className="flex items-center justify-between pt-1.5 pb-4 px-6">
-        <div className="flex items-center gap-4">
+      <nav className="flex items-center justify-between pt-1.5 pb-4 px-6 text-sm">
+        <div className="flex items-center">
           <div className="relative group">
             <div
               className={`${
@@ -23,8 +23,8 @@ export default function Navbar() {
                 open ? "" : "hidden"
               } flex flex-col bg-white rounded p-4 absolute top-9 left-0 w-[250px] z-50 transition-all duration-300 shadow-lg`}
             >
-              <h2 className="text-base font-bold pb-1">Menú principal</h2>
-              <button className="block w-40 text-left bg-gray-200 py-0.5 px-2 rounded cursor-pointer text-sm hover:bg-gray-100">
+              <h2 className="text-sm font-bold pb-1">Menú principal</h2>
+              <button className="block w-36 text-left bg-gray-200 py-0.5 px-2 rounded cursor-pointer text-xs hover:bg-gray-100">
                 mover a la barra lateral
               </button>
               <hr className="text-gray-200 mt-2" />
@@ -32,7 +32,7 @@ export default function Navbar() {
               <ul className="space-y-1.5 text-primary py-2">
                 {NavLinks.map((link, index) => (
                   <li key={index}>
-                    <a href={link.href} className="text-base hover:underline">
+                    <a href={link.href} className="text-sm hover:underline">
                       {link.link}
                     </a>
                   </li>
@@ -45,7 +45,7 @@ export default function Navbar() {
           <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">
             <img className="h-16 w-auto" src="/logo.jpg" alt="logo" />
           </a>
-          <div className="relative hidden md:flex items-center justify-between w-[450px] px-2 pr-0 border">
+          <div className="relative hidden md:flex items-center justify-between w-[450px] px-2 pr-0 border ml-8">
             {/* search */}
             <Search width={20} height={20} />
             <input
@@ -88,10 +88,10 @@ export default function Navbar() {
             <button
               className={`${
                 more ? "border-2" : "border-none"
-              } px-2 hover:bg-gray-100 cursor-pointer`}
+              } p-1 hover:bg-gray-100 cursor-pointer text-lg font-bold `}
               onClick={() => setMore(!more)}
             >
-              <span className="pb-4 text-2xl font-bold">...</span>
+              <MoreHorizontal className="w-6 h-6" />
             </button>
             <div
               className={`${
