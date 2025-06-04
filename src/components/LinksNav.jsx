@@ -28,7 +28,7 @@ export default function LinksNav() {
           href="https://es.wikipedia.org/w/index.php?title=Per%C3%BA&action=edit"
           className="text-primary hover:underline underline-offset-[9px] decoration-2"
         >
-          Ver Código fuente
+          Editar
         </a>
         <a
           href="https://es.wikipedia.org/w/index.php?title=Per%C3%BA&action=history"
@@ -40,7 +40,7 @@ export default function LinksNav() {
           <button
             className={`${
               tools ? "" : "border-none"
-            } px-2 py-1 hover:bg-gray-100 cursor-pointer flex items-center justify-center gap-2`}
+            }  py-1 hover:bg-gray-100 cursor-pointer flex items-center justify-center gap-2`}
             onClick={() => setTools(!tools)}
           >
             Herramientas

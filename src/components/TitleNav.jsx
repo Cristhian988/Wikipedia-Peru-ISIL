@@ -5,7 +5,7 @@ import Coordinates from "./Coordinates";
 
 export default function TitleNav() {
   return (
-    <div>
+    <div className="mt-4">
       <HeadingNav />
       <hr className="border-gray-400" />
       <LinksNav />

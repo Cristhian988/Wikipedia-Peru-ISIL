@@ -4,6 +4,10 @@
   --color-primary: #36c;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 summary {
   list-style: none;
 }

@@ -3,54 +3,38 @@ import React from "react";
 export default function HeroContent() {
   return (
     <div>
-      <p className="pl-8 mb-3 italic">
-        Para otros usos de este término, véase{" "}
-        <a
-          href="https://es.wikipedia.org/wiki/Per%C3%BA_(desambiguaci%C3%B3n)"
-          className="text-primary hover:underline"
-        >
-          Perú (desambiguación)
-        </a>
-        .
-      </p>
-      <div className="space-y-6 w-full">
+      <div className="space-y-6 w-full leading-relaxed">
         <p>
-          <b>Perú</b> (en quechua y en aimara: Piruw), oficialmente{" "}
-          <b>República del Perú</b>, es un país soberano, ubicado en el oeste de
-          América del Sur. Limita al norte, con Ecuador y Colombia; al este, con
-          Brasil y Bolivia; al sur, con Chile; y al oeste, con el océano
-          Pacífico, que bordea sus 2250 km de costa.Su territorio se compone de
-          diversos paisajes: los valles, las mesetas y las altas cumbres de los
-          Andes se despliegan al oeste hacia la costa desértica y el este hacia
-          la Amazonia. Es uno de los países con mayor diversidad biológica y
-          mayores recursos minerales del mundo.
+          <b>Países Bajos</b> (en neerlandés: Nederlandⓘ) es una de las cuatro
+          naciones constituyentes que forman el Reino de los Países Bajos. Es
+          uno de los veintisiete Estados soberanos que integran la Unión
+          Europea. Su capital es Ámsterdam; sin embargo, la organización y la
+          administración del Reino radican en La Haya, sede oficial de la
+          monarquía, así como de sus autoridades ejecutivas, legislativas y
+          judiciales. Aruba, Curazao y San Martín son territorios de ultramar
+          que no forman parte de la Unión Europea.
         </p>
         <p>
-          El Antiguo Perú fue una región de sucesivas civilizaciones desde el
-          surgimiento de Caral-Supe en el 3200 a. C. El Imperio incaico fue el
-          último Estado autóctono o indígena, el cual dominó gran parte del
-          occidente sudamericano hacia el siglo XV. En el siguiente siglo se
-          produjo la Conquista del Perú, tras la cual el territorio se configuró
-          como un virreinato del Imperio español articulado en torno a la
-          explotación de plata y oro con trabajo forzado de indígenas y de
-          esclavos africanos en minas y haciendas. En 1551, la Corona española
-          fundó oficialmente la Universidad Nacional Mayor de San Marcos en
-          Lima, la primera y más antigua universidad del Nuevo Mundo. Las
-          reformas borbónicas del siglo XVIII suscitaron diversos levantamientos
-          contra la autoridad colonial, cuyo máximo exponente fue la rebelión de
-          Túpac Amaru II.
+          Las provincias que conforman los Países Bajos están situadas en el
+          noroeste de Europa y limitan al norte y oeste con el mar del Norte, al
+          sur con Bélgica y al este con Alemania. Completan el territorio
+          neerlandés las municipalidades especiales de Bonaire, San Eustaquio y
+          Saba, situadas en el Caribe. El país constituye una de las zonas más
+          densamente pobladas del mundo.
         </p>
         <p>
-          Con la ocupación francesa de España y la promulgación de la
-          Constitución de 1812, se difundieron ideas de autonomía política en la
-          América española. La Independencia del Perú se proclamó formalmente el
-          28 de julio de 1821 por el general José de San Martín, y fue definida
-          en la batalla de Ayacucho tres años después. El país se mantuvo en
-          recesión y bajo el caudillismo militar hasta la bonanza y declive de
-          la era del Guano, que culminó poco antes de la guerra del Pacífico. En
-          la posguerra, se cimentó una política oligárquica que prevaleció hasta
-          el fin del Oncenio. Los sucesivos gobiernos democráticos fueron
-          constantemente interrumpidos por golpes de Estado.
+          Como su nombre indica, el territorio del país está formado por tierras
+          (land) bajas (neder) de las que, aproximadamente, una cuarta parte
+          están situadas al nivel del mar o por debajo de este.[8]
+        </p>
+        <p>
+          El país está clasificado como «de ingresos altos» según el Banco
+          Mundial[9] y es uno de los estados más desarrollados: en 2018 está
+          situado en el décimo lugar en cuanto a desarrollo humano según el
+          Índice de Desarrollo Humano publicado por Naciones Unidas.[10] Es
+          además uno de los países con uno de los niveles más bajos de
+          percepción de corrupción,[11] y es una de las democracias más
+          consolidadas del mundo.[12]
         </p>
       </div>
     </div>

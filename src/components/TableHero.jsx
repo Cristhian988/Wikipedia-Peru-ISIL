@@ -2,26 +2,29 @@ import React from "react";
 
 export default function TableHero() {
   return (
-    <div className="mt-10 mb-2 w-full md:w-8/12 border border-gray-400">
+    <div className="mb-2 w-full md:w-8/12 border border-gray-400">
       <div className="bg-gray-100 h-full w-full text-center cursor-pointer">
-        <h3 className="text-2xl font-semibold pt-2 text-black">
-          República del Perú
-        </h3>
-        <div className="pb-2">
+        <h3 className="text-2xl font-semibold pt-2 text-black">Países Bajos</h3>
+        <p className="text-lg font-semibold italic pb-2">Nederland</p>
+
+        <div className="border-t border-gray-400 py-1 bg-[#cddeff] font-semibold">
           <p>
-            <em>Piruw Ripuwlika </em>(
-            <a href="#" className="text-primary hover:underline">
-              quechua
+            <a href="" className="text-primary hover:underline">
+              Nación constituyente
+            </a>{" "}
+            del <br />{" "}
+            <a href="" className="text-primary hover:underline">
+              Reino de los Países Bajos
             </a>
-            )
-            <br />
           </p>
-          <p>
-            <em>Piruwxa Ripuwlika </em>(
-            <a href="#" className="text-primary hover:underline">
-              aimara
+          <p className="border-t border-gray-400 pt-1">
+            <a href="" className="text-primary hover:underline">
+              Estado miembro
+            </a>{" "}
+            de la{" "}
+            <a href="" className="text-primary hover:underline">
+              Unión Europea
             </a>
-            )
           </p>
         </div>
 
@@ -29,7 +32,7 @@ export default function TableHero() {
           <div className="flex flex-col gap-2">
             <a href="https://es.wikipedia.org/wiki/Per%C3%BA#/media/Archivo:Flag_of_Peru.svg">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/250px-Flag_of_Peru.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/330px-Flag_of_the_Netherlands.svg.png"
                 alt=""
                 className="w-32"
               />
@@ -45,9 +48,9 @@ export default function TableHero() {
           <div className="flex flex-col gap-2">
             <a href="https://es.wikipedia.org/wiki/Archivo:Escudo_nacional_del_Per%C3%BA.svg">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Escudo_nacional_del_Per%C3%BA.svg/525px-Escudo_nacional_del_Per%C3%BA.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/State_coat_of_arms_of_the_Netherlands.svg/250px-State_coat_of_arms_of_the_Netherlands.svg.png"
                 alt=""
-                className="w-20"
+                className="w-26"
               />
             </a>
 

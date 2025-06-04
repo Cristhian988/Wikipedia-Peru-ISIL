@@ -6,7 +6,7 @@ export default function HeadingNav() {
   const [languages, setLanguages] = useState(false);
   return (
     <div className="flex items-center justify-between">
-      <h1 className="text-3xl font-semibold pb-2">Perú</h1>
+      <h1 className="text-3xl font-medium pb-2 !font-serif">Países Bajos</h1>
       <div className="relative group">
         <button
           className={`${
@@ -14,8 +14,8 @@ export default function HeadingNav() {
           } hover:bg-blue-50 py-1.5 px-2.5 flex items-center justify-center gap-3 cursor-pointer text-primary font-bold -mr-2 rounded`}
           onClick={() => setLanguages(!languages)}
         >
-          <Languages />
-          263 idiomas
+          <Languages width={24} height={24} />
+          289 idiomas
           <ChevronDown width={18} height={18} />
         </button>
 
