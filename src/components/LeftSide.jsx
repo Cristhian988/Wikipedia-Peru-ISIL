@@ -22,7 +22,7 @@ export default function LeftSide() {
 
           <div className="space-y-1.5 text-sm">
             <a href="#" className="py-8 hover:underline text-primary">
-              Etimologia
+              Terminología
             </a>
             {Contenidos.map((item, index) => (
               <details

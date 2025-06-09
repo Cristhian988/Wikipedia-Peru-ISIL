@@ -100,15 +100,30 @@ export const LinksEmpty = [
 ];
 
 export const NavLinks = [
-  { link: "Portada", href: "#" },
-  { link: "Portal de la comunidad", href: "#" },
-  { link: "Actualidad", href: "#" },
-  { link: "Cambios recientes", href: "#" },
-  { link: "Páginas nuevas", href: "#" },
-  { link: "Página aleatoria", href: "#" },
-  { link: "Ayuda", href: "#" },
+  { link: "Portada", href: "https://es.wikipedia.org/wiki/Wikipedia:Portada" },
+  {
+    link: "Portal de la comunidad",
+    href: "https://es.wikipedia.org/wiki/Portal:Comunidad",
+  },
+  {
+    link: "Actualidad",
+    href: "https://es.wikipedia.org/wiki/Portal:Actualidad",
+  },
+  {
+    link: "Cambios recientes",
+    href: "https://es.wikipedia.org/wiki/Especial:CambiosRecientes?hidebots=1&hidecategorization=1&hideWikibase=1&limit=50&days=7&urlversion=2",
+  },
+  {
+    link: "Páginas nuevas",
+    href: "https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasNuevas",
+  },
+  { link: "Página aleatoria", href: "https://es.wikipedia.org/wiki/Elskop" },
+  { link: "Ayuda", href: "https://es.wikipedia.org/wiki/Ayuda:Contenidos" },
   { link: "Notificar un error", href: "#" },
-  { link: "Paginas especiales", href: "#" },
+  {
+    link: "Paginas especiales",
+    href: "https://es.wikipedia.org/wiki/Especial:P%C3%A1ginasEspeciales",
+  },
 ];
 
 export const ToolsGeneral = [
