@@ -96,6 +96,7 @@ export default function TableHero() {
             : «Mantendré»)
           </p>
         </div>
+
         <div className="border-b border-gray-400 py-1">
           <a
             href="https://es.wikipedia.org/wiki/Himno_nacional"
@@ -117,8 +118,8 @@ export default function TableHero() {
             </a>{" "}
             : «El Guillermo»)
           </p>
-          <audio controls className="mx-auto">
-            <source src="/Netherlands-National.mp3" type="audio/mpeg" />
+          <audio src="/Netherlands-National.mp3" controls className="mx-auto">
+            <source src="/Netherlands-National.mp3" type="video/mp4" />
           </audio>
           <a
             href="https://es.wikipedia.org/wiki/Ayuda:Multimedia"

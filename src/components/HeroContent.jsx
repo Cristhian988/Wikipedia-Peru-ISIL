@@ -25,16 +25,16 @@ export default function HeroContent() {
         <p>
           Como su nombre indica, el territorio del país está formado por tierras
           (land) bajas (neder) de las que, aproximadamente, una cuarta parte
-          están situadas al nivel del mar o por debajo de este.[8]
+          están situadas al nivel del mar o por debajo de este.
         </p>
         <p>
           El país está clasificado como «de ingresos altos» según el Banco
-          Mundial[9] y es uno de los estados más desarrollados: en 2018 está
+          Mundial y es uno de los estados más desarrollados: en 2018 está
           situado en el décimo lugar en cuanto a desarrollo humano según el
-          Índice de Desarrollo Humano publicado por Naciones Unidas.[10] Es
+          Índice de Desarrollo Humano publicado por Naciones Unidas. Es
           además uno de los países con uno de los niveles más bajos de
-          percepción de corrupción,[11] y es una de las democracias más
-          consolidadas del mundo.[12]
+          percepción de corrupción, y es una de las democracias más
+          consolidadas del mundo.
         </p>
       </div>
     </>
