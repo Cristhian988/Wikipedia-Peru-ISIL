@@ -129,11 +129,13 @@ export default function TableHero() {
           </a>
         </div>
         <div className="py-3">
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/EU-Netherlands.svg/330px-EU-Netherlands.svg.png"
-            alt=""
-            className="mx-auto"
-          />
+          <a href="https://es.wikipedia.org/wiki/Pa%C3%ADses_Bajos#/media/Archivo:EU-Netherlands.svg">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/EU-Netherlands.svg/330px-EU-Netherlands.svg.png"
+              alt=""
+              className="mx-auto"
+            />
+          </a>
           <div className="py-2 text-xs space-y-1">
             <p className="font-bold">
               <span className="bg-[#008000] border py-[.3px] px-[7px] mr-1.5"></span>{" "}
